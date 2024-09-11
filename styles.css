@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: montserrat;
+    font-size: 14px;
+    background-color: #e5e5e5;
+    color: hsl(212, 21%, 14%);
+}
+
+.container {
+    border-radius: 15px;
+    width: 75%;
+    margin: 10px auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.heading-section{
+    border-radius: 10px 10px 0 0;
+    background-image: url("https://res.cloudinary.com/doatg7jlc/image/upload/v1726018835/Lagos_cekkrs.png");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.header{
+    border-radius: 10px;
+    margin: 190px auto 10px auto;
+    width: fit-content;
+    padding: 5px 15px;
+    background-color: #4B4C52;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.about{
+    border-radius: 10px;
+    margin: 0px 200px 0 200px;
+    width: fit-content;
+    padding: 5px 15px;
+    background-color:  #2F3037;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.activities-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #ffddd2;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.act1-img, .act2-img, .act3-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.activity-1, .activity-2, .activity-3 {
+    text-align: center;
+    padding: 0 25px;
+}
+
+.guide-section{
+    border-bottom: 5px solid #1C1C21;
+    border-radius: 5px;
+    width: 370px;
+    margin: 20px auto;
+    display: flex;
+    padding: 12px;
+    text-align: center;
+    background-color: #adb5bd;
+}
+
+.guide-img{
+    width: 170px;
+}
+
+.guide-content{
+    padding: 0 12px;
+}
+
+
+@media all and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    .heading-section {
+        height: 270px;
+    }
+
+    .header {
+        margin: 40px auto 10px auto;
+    }  
+    
+    .about {
+        margin: 0 10px;
+    }
+    
+    #activities {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guide-img {
+        width: 150px;
+    }
+
+    .guide-section {
+        width: 90%;
+    }
+}
+
+
+@media all and (max-width: 350px) {
+    .container {
+        width: 95%;
+    }
+
+    .heading-section {
+        height: 170px;
+    }
+
+    .header {
+        margin: 40px auto 10px auto;
+    }  
+    
+    .about {
+        margin: 0 10px;
+    }
+    
+    #activities {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guide-img {
+        width: 140px;
+    }
+
+    .guide-section {
+        width: 90%;
+    }
+}
