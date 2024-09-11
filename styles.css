@@ -3,13 +3,13 @@
 body{
     font-family: montserrat;
     font-size: 14px;
-    background-color: #e5e5e5;
-    color: hsl(212, 21%, 14%);
+    background-color: #F1FAEE;
+    color: #1d3557;
 }
 
 .container {
     border-radius: 15px;
-    width: 75%;
+    width: 80%;
     margin: 10px auto;
     padding: 8px;
     display: flex;
@@ -19,7 +19,7 @@ body{
 
 .heading-section{
     border-radius: 10px 10px 0 0;
-    background-image: url("https://res.cloudinary.com/doatg7jlc/image/upload/v1726018835/Lagos_cekkrs.png");
+    background-image: url("https://res.cloudinary.com/doatg7jlc/image/upload/v1726081391/Lekki-Ikoyi-Bridge_izguad.webp");
     background-size: cover;
     height: 500px;
     text-align: center;
@@ -50,7 +50,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 10px 30px;
-    background-color: #ffddd2;
+    background-color: #A8DADC;
 }
 
 #activities {
@@ -67,21 +67,25 @@ body{
 .activity-1, .activity-2, .activity-3 {
     text-align: center;
     padding: 0 25px;
+    margin: 0 25px;
 }
 
 .guide-section{
-    border-bottom: 5px solid #1C1C21;
+    border-bottom: 5px solid #1D3557;
     border-radius: 5px;
     width: 370px;
+    height: fit-content;
     margin: 20px auto;
     display: flex;
+    align-items: center;
     padding: 12px;
     text-align: center;
-    background-color: #adb5bd;
+    background-color: #457B9D;
 }
 
 .guide-img{
     width: 170px;
+    height: 200px;
 }
 
 .guide-content{
@@ -113,6 +117,7 @@ body{
 
     .guide-img {
         width: 150px;
+        height: 185px;
     }
 
     .guide-section {
@@ -145,6 +150,7 @@ body{
 
     .guide-img {
         width: 140px;
+        height: 175px;
     }
 
     .guide-section {
